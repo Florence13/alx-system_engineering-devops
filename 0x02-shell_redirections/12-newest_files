@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -pt > sorted;grep -v / sorted > sortedFinal;head sortedFinal
